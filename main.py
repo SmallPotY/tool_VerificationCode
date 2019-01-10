@@ -17,8 +17,8 @@ def login():
 
     data = {
         'checkWord': checkWord,
-        'passWord': 'Zz123456*',
-        'userName': 'tiantu@honotop.com'
+        'passWord': '*',
+        'userName': '*'
     }
 
     response = requests.post('https://vis.vip.com/login.php',
